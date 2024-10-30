@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>top wiecejmocy</pattern>
+        <template>Pure Aero 98 to rakieta Carlosa Alcaraza i Felixa Auger-Aliassime'a. Daje najwięcej kontroli w rodzinie Pure Aero dzięki mniejszej główce, cieńszej ramie i układowi strun 16/20. Dodatek naturalnego lnu poprawia czucie uderzenia.
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Babolat Pure Aero 98.</text>
+                <url>https://babolat-tenis.pl/4463-babolat-pure-aero-98-bez-naciagu.html?srsltid=AfmBOorUcMTAouc9m3Lhdehr-BwBhAuZlVQ7znTpdUmhpzLokkoKzhQM</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>wiecej mocy</pattern>
+        <template> Wybrałem dla ciebie idealną rakiete!!! Babolat Pure Aero 98. Myśle że spełni wszystkie twoje potrzeby.
+        <br></br><br></br>
+        Pure Aero 98 to rakieta Carlosa Alcaraza i Felixa Auger-Aliassime'a. Daje najwięcej kontroli w rodzinie Pure Aero dzięki mniejszej główce, cieńszej ramie i układowi strun 16/20. Dodatek naturalnego lnu poprawia czucie uderzenia.
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Babolat Pure Aero 98.</text>
+                <url>https://babolat-tenis.pl/4463-babolat-pure-aero-98-bez-naciagu.html?srsltid=AfmBOorUcMTAouc9m3Lhdehr-BwBhAuZlVQ7znTpdUmhpzLokkoKzhQM</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

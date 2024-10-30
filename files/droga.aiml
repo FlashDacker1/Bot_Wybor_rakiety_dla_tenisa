@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>top droga</pattern>
+        <template>Niska waga przekłada się na dobrą manewrowość, a ogromny "sweetspot" to łatwość w centrycznym trafieniu w piłkę i kierunkowaniu uderzeń. Pogrubiona rama wiele wybacza, dzięki czemu piłka częściej trafia w kort. Szerokie przelotki na ramie pozwalają na generowanie bardzo dobrej mocy uderzenia przy użyciu minimalnej siły własnej. 
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Prince O3 Legacy.</text>
+                <url>https://princetennis.com/txt-ats-o3-legacy-120</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>droga</pattern>
+        <template>Wybrałem dla ciebie idealną rakiete!!! Prince O3 Legacy. Myśle że spełni wszystkie twoje potrzeby.
+        <br></br><br></br>
+        Niska waga przekłada się na dobrą manewrowość, a ogromny "sweetspot" to łatwość w centrycznym trafieniu w piłkę i kierunkowaniu uderzeń. Pogrubiona rama wiele wybacza, dzięki czemu piłka częściej trafia w kort. Szerokie przelotki na ramie pozwalają na generowanie bardzo dobrej mocy uderzenia przy użyciu minimalnej siły własnej. 
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Prince O3 Legacy.</text>
+                <url>https://princetennis.com/txt-ats-o3-legacy-120</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+    
+ </aiml>

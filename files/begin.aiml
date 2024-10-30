@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>START</pattern>
+        <template>Cześć! Jestem botem który pomoże ci wybrać rakiete do tenisa. W czym dokładnie mogę pomóc ci: 
+            <button>
+                <text>Chciałbym poznać top 5 najlepszych rakiet</text>
+                <postback>top rakiet</postback>
+            </button>
+            <button>
+                <text>Pomóż wybrać rakiete</text>
+                <postback>wybor rakiety</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>top rakiet</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>wybor rakiety</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>poczatkujacy</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>zaawansowany</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>zaczynam</pattern>
+        <template> Czy chciałbyś drogą rakiete czy tanią? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>droga</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>tania</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>gram juz</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+        <category>
+        <pattern>nie profesjonalnie</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+            <category>
+        <pattern>profesjonalnie</pattern>
+        <template> Czy chciałbyś więcej mocy i rotacji czy kontroly i odczucia?
+            <button>
+                <text>Chciałbym więcej mocy i rotacji</text>
+                <postback>wiecej mocy</postback>
+            </button>
+            <button>
+                <text>Chciałbym więcej kontroly</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+   <category>
+        <pattern>* START</pattern>
+        <template>Cześć! Jestem botem który pomoże ci wybrać rakiete do tenisa. W czym dokładnie mogę pomóc ci: 
+            <button>
+                <text>Chciałbym poznać top 5 najlepszych rakiet</text>
+                <postback>top rakiet</postback>
+            </button>
+            <button>
+                <text>Pomóż wybrać rakiete</text>
+                <postback>wybor rakiety</postback>
+            </button>    
+        </template>
+    </category>
+
+   <category>
+        <pattern>START *</pattern>
+        <template>Cześć! Jestem botem który pomoże ci wybrać rakiete do tenisa. W czym dokładnie mogę pomóc ci: 
+            <button>
+                <text>Chciałbym poznać top 5 najlepszych rakiet</text>
+                <postback>top rakiet</postback>
+            </button>
+            <button>
+                <text>Pomóż wybrać rakiete</text>
+                <postback>wybor rakiety</postback>
+            </button>    
+        </template>
+    </category>
+
+   <category>
+        <pattern>* START *</pattern>
+        <template>Cześć! Jestem botem który pomoże ci wybrać rakiete do tenisa. W czym dokładnie mogę pomóc ci: 
+            <button>
+                <text>Chciałbym poznać top 5 najlepszych rakiet</text>
+                <postback>top rakiet</postback>
+            </button>
+            <button>
+                <text>Pomóż wybrać rakiete</text>
+                <postback>wybor rakiety</postback>
+            </button>    
+        </template>
+    </category>
+
+
+<category>
+        <pattern>* top rakiet</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>top rakiet *</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+
+<category>
+        <pattern>* top rakiet *</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* wybor rakiety</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>wybor rakiety *</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* wybor rakiety</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* wybor rakiety *</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* poczatkujacy</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>poczatkujacy *</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* poczatkujacy *</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* zaawansowany</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>zaawansowany *</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* zaawansowany *</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* zaczynam</pattern>
+        <template> Czy chciałbyś drogą rakiete czy tanią? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>droga</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>tania</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>zaczynam *</pattern>
+        <template> Czy chciałbyś drogą rakiete czy tanią? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>droga</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>tania</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* zaczynam *</pattern>
+        <template> Czy chciałbyś drogą rakiete czy tanią? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>droga</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>tania</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* gram juz</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>gram juz *</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* gram juz *</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* nie profesjonalnie</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>nie profesjonalnie *</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* nie profesjonalnie *</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* profesjonalnie</pattern>
+        <template> Czy chciałbyś więcej mocy i rotacji czy kontroly i odczucia? Użyj przycisku
+            <button>
+                <text>Chciałbym więcej mocy i rotacji</text>
+                <postback>wiecej mocy</postback>
+            </button>
+            <button>
+                <text>Chciałbym więcej kontroly</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>profesjonalnie *</pattern>
+        <template> Czy chciałbyś więcej mocy i rotacji czy kontroly i odczucia? Użyj przycisku
+            <button>
+                <text>Chciałbym więcej mocy i rotacji</text>
+                <postback>wiecej mocy</postback>
+            </button>
+            <button>
+                <text>Chciałbym więcej kontroly</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* profesjonalnie *</pattern>
+        <template> Czy chciałbyś więcej mocy i rotacji czy kontroly i odczucia? Użyj przycisku
+            <button>
+                <text>Chciałbym więcej mocy i rotacji</text>
+                <postback>wiecej mocy</postback>
+            </button>
+            <button>
+                <text>Chciałbym więcej kontroly</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* wybór rakiety</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>wybór rakiety *</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* wybór rakiety *</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>Pomóż</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* Pomóż</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>Pomóż *</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* Pomóż *</pattern>
+        <template>Zadam ci kilka pytań że by zrozumieć jaką rakiete potrzebujesz.
+        <br></br><br></br>
+        Czy jesteś zaawansowanym graczem czy początkującym?
+            <button>
+                <text>Jestem początkującym graczem</text>
+                <postback>poczatkujacy</postback>
+            </button>
+            <button>
+                <text>Jestem zaawansowanym graczem</text>
+                <postback>zaawansowany</postback>
+            </button>
+        </template>
+    </category>
+
+ <category>
+        <pattern>początkujący</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+ <category>
+        <pattern>* początkujący</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+ <category>
+        <pattern>początkujący *</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+ <category>
+        <pattern>* początkujący *</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>początkującym</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category> 
+    
+    <category>
+        <pattern>* początkującym</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>początkującym *</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* początkującym *</pattern>
+        <template> Czy dopiero zaczynasz grać czy już grasz jakiś czas?
+            <button>
+                <text>Zaczynam grać</text>
+                <postback>zaczynam</postback>
+            </button>
+            <button>
+                <text>Już gram jakiś czas</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+    
+
+<category>
+        <pattern>gram już</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* gram już</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>gram już *</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* gram już *</pattern>
+        <template> Czy chciałbyś tanią rakiete czy drogą? Użyj przycisku
+            <button>
+                <text>Drogą</text>
+                <postback>headradical</postback>
+            </button>
+            <button>
+                <text>Tanią</text>
+                <postback>no raket</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>chciałbym poznać</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* chciałbym poznać</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>chciałbym poznać *</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* chciałbym poznać *</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>chcialbym poznac</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* chcialbym poznac</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>chcialbym poznac *</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* chcialbym poznac *</pattern>
+        <template>Przedstawiam top 5 najlepszych rakiet w 2024 roku. Użyj przycisku
+            <button>
+                <text>Wilson RF 01 PRO</text>
+                <postback>top wilson</postback>
+            </button>
+            <button>
+                <text>Head Radical MP</text>
+                <postback>top headradical</postback>
+            </button>
+            <button>
+                <text>Head Titanium Ti.S6</text>
+                <postback>top tania</postback>
+            </button>
+            <button>
+                <text>Babolat Pure Aero 98</text>
+                <postback>top wiecejmocy</postback>
+            </button>
+            <button>
+                <text>Prince O3 Legacy</text>
+                <postback>top droga</postback>
+            </button>
+        </template>
+    </category>
+
+ <category>
+        <pattern>nie * profesjonalnie</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* nie * profesjonalnie</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>nie * profesjonalnie *</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* nie * profesjonalnie *</pattern>
+        <template> Czy chciałbyś rakiete o większej przyjaźni do ramienia? Użyj przycisku
+            <button>
+                <text>Chciałbym</text>
+                <postback>Wilson</postback>
+            </button>
+            <button>
+                <text>Nie potrzebuje</text>
+                <postback>gram juz</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>zaawansowanym</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* zaawansowanym</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>zaawansowanym *</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+<category>
+        <pattern>* zaawansowanym *</pattern>
+        <template> Czy grasz profesjonalnie?
+            <button>
+                <text>Nie gram profesjonalnie</text>
+                <postback>nie profesjonalnie</postback>
+            </button>
+            <button>
+                <text>Tak, gram profesjonalnie</text>
+                <postback>profesjonalnie</postback>
+            </button>
+        </template>
+    </category>
+
+
+
+</aiml>

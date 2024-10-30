@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	 <category>
+        <pattern>top wilson</pattern>
+        <template>Najcięższy w serii model RF 01 PRO został stworzony z myślą o zaawansowanych, agresywnie grających tenisistach o pełnym, dopracowanym zamachu, którzy chcą zachować odpowiednią kontrolę nad każdym uderzeniem.
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Wilson RF 01 PRO.</text>
+                <url>https://www.wilson.com/en-us/product/rf-01-pro-frm-wr15130#covertype=52592</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>wilson</pattern>
+        <template>Wybrałem dla ciebie idealną rakiete!!! Wilson RF 01 PRO. Myśle że spełni wszystkie twoje potrzeby.
+        <br></br><br></br>
+        Najcięższy w serii model RF 01 PRO został stworzony z myślą o zaawansowanych, agresywnie grających tenisistach o pełnym, dopracowanym zamachu, którzy chcą zachować odpowiednią kontrolę nad każdym uderzeniem.
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Wilson RF 01 PRO.</text>
+                <url>https://www.wilson.com/en-us/product/rf-01-pro-frm-wr15130#covertype=52592</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

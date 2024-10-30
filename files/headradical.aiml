@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>top headradical</pattern>
+        <template>Rakietę RADICAL MP wyróżnia innowacyjna konstrukcja Auxetic zapewniająca doskonałe czucie uderzenia i fantastyczną grywalność. Została wyposażona w ekskluzywne technologie, na przykład gromety Sound zapewniające większą moc poprzez dużą ruchomość strun, a także optymalny dźwięk uderzenia i tłumienie wibracji.
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Head Radical MP.</text>
+                <url>https://www.head.com/pl_PL/radical-mp-2023-235113.html</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>headradical</pattern>
+        <template> Wybrałem dla ciebie idealną rakiete!!! Head Radical MP. Myśle że spełni wszystkie twoje potrzeby.
+        <br></br><br></br>
+            Rakietę RADICAL MP wyróżnia innowacyjna konstrukcja Auxetic zapewniająca doskonałe czucie uderzenia i fantastyczną grywalność. Została wyposażona w ekskluzywne technologie, na przykład gromety Sound zapewniające większą moc poprzez dużą ruchomość strun, a także optymalny dźwięk uderzenia i tłumienie wibracji.
+            <br></br> <br></br>
+            <link>
+                <text> Wcisnij tutaj że by poznać więcej o rakiecie Head Radical MP.</text>
+                <url>https://www.head.com/pl_PL/radical-mp-2023-235113.html</url>
+            </link>
+            <button>
+                <text>Wcisnij tutaj że by zobaczyć top 5 najlepszych rakiet w 2024 roku.</text>
+                <postback>top rakiet</postback>
+            </button>
+             <button>
+                <text>Wcisnij tutaj że by przejść do wyboru rakiety.</text>
+                <postback>wybor rakiety</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

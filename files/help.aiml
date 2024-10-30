@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>cześć</pattern>
+        <template>Cześć, witam w czacie. Żeby zacząć rozmowę napisz "START".</template>
+    </category>
+    <category>
+        <pattern>czesc</pattern>
+        <template>Cześć, witam w czacie. Żeby zacząć rozmowę napisz "START".</template>
+    </category>
+        
+    <category>
+        <pattern>pomoc ^ </pattern>
+        <template>Aby uzyskać dodatkową pomoc, najlepiej umówić się na rozmowe z doradcą. Wybierz poniżej idealny termin.
+            <button>
+                <text>09:00:00</text>
+                <postback>dziekuje</postback>
+            </button>
+            <button>
+                <text>12:00:00</text>
+                <postback>dziekuje</postback>
+            </button>
+            <button>
+                <text>15:00:00</text>
+                <postback>dziekuje</postback>
+            </button>
+            <button>
+                <text>18:00:00</text>
+                <postback>dziekuje</postback>
+            </button>
+            <button>
+                <text>21:00:00</text>
+                <postback>dziekuje</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>dziekuje</pattern>
+        <template>Dziękuję! Doradza zostanie powiadomiony i skontaktuje się z tobą w wybranym terminie.
+        </template>
+    </category>
+    <category>
+        <pattern>wsparcie ^</pattern>
+        <template>Aby uzyskać więcej informacji i umówić się na rozmowę, wpisz „pomoc”.</template>
+    </category>
+    <category>
+        <pattern>rozkład ^</pattern>
+        <template>Aby uzyskać więcej informacji i umówić się na rozmowę, wpisz „pomoc”.</template>
+    </category>
+    <category>
+        <pattern>rozmowa ^</pattern>
+        <template>Aby uzyskać więcej informacji i umówić się na rozmowę, wpisz „pomoc”.</template>
+    </category>
+    
+    <category>
+        <pattern>no raket</pattern>
+        <template>Niestety na tym poziomie wszystkie rakiety są już dość drogie. Aby uzyskać więcej informacji i umówić się na rozmowę, wpisz „pomoc”.</template>
+    </category>
+    
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
+</category>
+</aiml>
